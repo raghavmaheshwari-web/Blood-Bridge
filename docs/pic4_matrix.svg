@@ -1,0 +1,115 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 580' width='900' height='580' font-family='-apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif'>
+  <rect width='900' height='580' rx='6' fill='#F5F7FA'/>
+  <rect width='900' height='26' rx='6' fill='#E2E8F0'/>
+  <circle cx='16' cy='13' r='4.5' fill='#FF5F56'/>
+  <circle cx='32' cy='13' r='4.5' fill='#FFBD2E'/>
+  <circle cx='48' cy='13' r='4.5' fill='#27C93F'/>
+  <text x='450' y='17' font-size='10' fill='#475569' text-anchor='middle' font-weight='600'>Blood Donor Registration and Search System - Compatibility Matrix</text>
+  
+  <rect y='26' width='900' height='48' fill='#C62828'/>
+  <text x='20' y='52' font-size='16' font-weight='bold' fill='#FFFFFF'>📊 ABO &amp; Rh Compatibility Matrix &amp; Donor Pool Stats</text>
+  <text x='20' y='66' font-size='9' fill='#FFCDD2'>Clinical transfusion guidelines for whole blood and red blood cell matching</text>
+
+  <!-- Tabs (Tab 3 Active) -->
+  <rect x='10' y='80' width='880' height='28' fill='#E2E8F0' rx='3'/>
+  <text x='80' y='98' font-size='10' font-weight='bold' fill='#475569' text-anchor='middle'>🔍 Search &amp; Directory</text>
+  <text x='235' y='98' font-size='10' font-weight='bold' fill='#475569' text-anchor='middle'>📝 Donor Registration</text>
+  <rect x='330' y='80' width='180' height='28' fill='#C62828' rx='3'/>
+  <text x='420' y='98' font-size='10' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>📊 Compatibility Matrix &amp; Stats</text>
+
+  <!-- Blood Group Count Cards -->
+  <rect x='10' y='116' width='880' height='68' rx='4' fill='#FFFFFF' stroke='#CFD8DC'/>
+  <text x='20' y='132' font-size='9.5' font-weight='bold' fill='#C62828'>Current Registered Donors by Blood Group Pool</text>
+  
+  <rect x='20' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='69' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>A+</text>
+  <text x='69' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='128' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='177' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>A-</text>
+  <text x='177' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='236' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='285' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>B+</text>
+  <text x='285' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='344' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='393' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>B-</text>
+  <text x='393' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='452' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='501' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>AB+</text>
+  <text x='501' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='560' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='609' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>AB-</text>
+  <text x='609' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>1 Donor</text>
+
+  <rect x='668' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='717' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>O+</text>
+  <text x='717' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>2 Donors</text>
+
+  <rect x='776' y='140' width='98' height='36' rx='3' fill='#F8FAFC' stroke='#E2E8F0'/>
+  <text x='825' y='154' font-size='10' font-weight='bold' fill='#C62828' text-anchor='middle'>O-</text>
+  <text x='825' y='168' font-size='8.5' fill='#334155' text-anchor='middle'>2 Donors</text>
+
+  <!-- Matrix Table -->
+  <rect x='10' y='194' width='880' height='340' rx='4' fill='#FFFFFF' stroke='#CFD8DC'/>
+  <rect x='11' y='195' width='878' height='24' fill='#37474F'/>
+  <text x='25' y='211' font-size='9.5' font-weight='bold' fill='#FFFFFF'>Blood Type   Can Give Blood To (Recipients)       Can Receive Blood From (Donors)    Significance</text>
+
+  <rect x='11' y='220' width='878' height='24' fill='#ECEFF1'/>
+  <text x='25' y='236' font-size='9' font-weight='bold' fill='#C62828'>🩸 O-</text>
+  <text x='115' y='236' font-size='9' fill='#1E293B'>O-, O+, A-, A+, B-, B+, AB-, AB+</text>
+  <text x='380' y='236' font-size='9' fill='#1E293B'>O-</text>
+  <text x='580' y='236' font-size='8.5' fill='#475569'>🌟 Universal Red Cell Donor (Gives to all 8 types)</text>
+
+  <rect x='11' y='245' width='878' height='24' fill='#FFFFFF'/>
+  <text x='25' y='261' font-size='9' font-weight='bold' fill='#C62828'>🩸 O+</text>
+  <text x='115' y='261' font-size='9' fill='#1E293B'>O+, A+, B+, AB+</text>
+  <text x='380' y='261' font-size='9' fill='#1E293B'>O+, O-</text>
+  <text x='580' y='261' font-size='8.5' fill='#475569'>Most common blood group (~38% of population)</text>
+
+  <rect x='11' y='270' width='878' height='24' fill='#ECEFF1'/>
+  <text x='25' y='286' font-size='9' font-weight='bold' fill='#C62828'>🩸 A-</text>
+  <text x='115' y='286' font-size='9' fill='#1E293B'>A-, A+, AB-, AB+</text>
+  <text x='380' y='286' font-size='9' fill='#1E293B'>A-, O-</text>
+  <text x='580' y='286' font-size='8.5' fill='#475569'>Compatible donor for all A and AB recipients</text>
+
+  <rect x='11' y='295' width='878' height='24' fill='#FFFFFF'/>
+  <text x='25' y='311' font-size='9' font-weight='bold' fill='#C62828'>🩸 A+</text>
+  <text x='115' y='311' font-size='9' fill='#1E293B'>A+, AB+</text>
+  <text x='380' y='311' font-size='9' fill='#1E293B'>A+, A-, O+, O-</text>
+  <text x='580' y='311' font-size='8.5' fill='#475569'>Second most frequent blood type</text>
+
+  <rect x='11' y='320' width='878' height='24' fill='#ECEFF1'/>
+  <text x='25' y='336' font-size='9' font-weight='bold' fill='#C62828'>🩸 B-</text>
+  <text x='115' y='336' font-size='9' fill='#1E293B'>B-, B+, AB-, AB+</text>
+  <text x='380' y='336' font-size='9' fill='#1E293B'>B-, O-</text>
+  <text x='580' y='336' font-size='8.5' fill='#475569'>Rare Rh-negative blood type</text>
+
+  <rect x='11' y='345' width='878' height='24' fill='#FFFFFF'/>
+  <text x='25' y='361' font-size='9' font-weight='bold' fill='#C62828'>🩸 B+</text>
+  <text x='115' y='361' font-size='9' fill='#1E293B'>B+, AB+</text>
+  <text x='380' y='361' font-size='9' fill='#1E293B'>B+, B-, O+, O-</text>
+  <text x='580' y='361' font-size='8.5' fill='#475569'>Very common in Indian subcontinent (~32%)</text>
+
+  <rect x='11' y='370' width='878' height='24' fill='#ECEFF1'/>
+  <text x='25' y='386' font-size='9' font-weight='bold' fill='#C62828'>🩸 AB-</text>
+  <text x='115' y='386' font-size='9' fill='#1E293B'>AB-, AB+</text>
+  <text x='380' y='386' font-size='9' fill='#1E293B'>AB-, A-, B-, O-</text>
+  <text x='580' y='386' font-size='8.5' fill='#475569'>Universal platelet donor, rare whole blood</text>
+
+  <rect x='11' y='395' width='878' height='24' fill='#FFFFFF'/>
+  <text x='25' y='411' font-size='9' font-weight='bold' fill='#C62828'>🩸 AB+</text>
+  <text x='115' y='411' font-size='9' fill='#1E293B'>AB+</text>
+  <text x='380' y='411' font-size='9' fill='#1E293B'>AB+, AB-, A+, A-, B+, B-, O+, O-</text>
+  <text x='580' y='411' font-size='8.5' fill='#475569'>🌟 Universal Red Cell Recipient (Can receive from all)</text>
+
+  <rect x='11' y='425' width='878' height='30' fill='#FFF8E1'/>
+  <text x='25' y='444' font-size='9' font-weight='bold' fill='#B45309'>📌 Guidelines: Age 18–65 • Weight ≥ 50kg • Minimum 90 days interval between whole blood donations</text>
+
+  <!-- Bottom Reload Button -->
+  <rect x='10' y='542' width='160' height='26' rx='3' fill='#607D8B'/>
+  <text x='90' y='558' font-size='9' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>↺ Reset Demo Data</text>
+</svg>
