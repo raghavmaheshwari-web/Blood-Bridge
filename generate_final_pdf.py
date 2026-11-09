@@ -271,8 +271,8 @@ def create_pdf():
 
     # 3. Figure 1: Structure of the Application
     fig1_path = os.path.join(DOCS_DIR, "fig1_structure.png")
-    fig1_w = USABLE_WIDTH
-    fig1_h = fig1_w * (270.0 / 800.0)  # ~170.5 pt
+    fig1_w = 410 * pt  # Generous width, cleanly centered
+    fig1_h = fig1_w * (643.0 / 1562.0)  # ~168.8 pt (exact un-distorted aspect ratio)
     fig1_img = Image(fig1_path, width=fig1_w, height=fig1_h)
     fig1_img.hAlign = 'CENTER'
     story.append(fig1_img)
@@ -286,7 +286,7 @@ def create_pdf():
     pic4_path = os.path.join(DOCS_DIR, "pic4_matrix.png")
 
     grid_cell_w = (USABLE_WIDTH - 6 * pt) / 2.0  # ~249.6 pt
-    grid_cell_h = grid_cell_w * (580.0 / 900.0)  # ~160.8 pt
+    grid_cell_h = grid_cell_w * (919.0 / 1200.0)  # ~191.2 pt (exact un-distorted aspect ratio)
 
     im1 = Image(pic1_path, width=grid_cell_w, height=grid_cell_h)
     im2 = Image(pic2_path, width=grid_cell_w, height=grid_cell_h)
