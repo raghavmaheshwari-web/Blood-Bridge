@@ -179,7 +179,7 @@ def create_pdf():
         "Submitted by<br/>"
         "1. RA2511026010666 – Raghav Maheshwari,<br/>"
         "2. RA2511026010618 – Shorya Sharma,<br/>"
-        "3. RA2511026010654 – Yana Butala."
+        "3. RA2511026010676 – Yana Butala."
     )
     story.append(Paragraph(sub_by_text, style_submitted_by))
     story.append(Spacer(1, 6))
