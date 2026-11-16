@@ -17,7 +17,7 @@ import os
 
 BASE_DIR = "/Users/raghavmaheshwari/Desktop/Blood Donor System"
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
-SRM_LOGO = "/tmp/docx_image1.png"
+SRM_LOGO = os.path.join(DOCS_DIR, "srm_logo.png")
 OUTPUT_PDF = os.path.join(BASE_DIR, "RA2511026010666.pdf")
 
 # Page Dimensions (A4: 595.27 x 841.89 pt)
